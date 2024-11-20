@@ -2,8 +2,9 @@
 
 **Author**: Rhutvik
 
-[![Real Flight Demo](https://img.shields.io/badge/▶_Real_Flight_Demo-line_follower.mp4-blue?style=for-the-badge)](output/line_follower.mp4)
-[![Simulation Video](https://img.shields.io/badge/▶_Simulation-simulation_s_curve.mp4-green?style=for-the-badge)](output/simulation_s_curve.mp4)
+[![Real Flight Demo](output/line_follower_preview.gif)](output/line_follower.mp4)
+
+*Click the GIF above to download the full 1080p video (22 MB, 60s)*
 
 Pure-Python simulation replica of the MATLAB/Simulink + Stateflow project for autonomous line following and landing on a Parrot Mambo minidrone. Runs entirely in software — no hardware required.
 
@@ -85,12 +86,11 @@ The `output/line_follower.mp4` in this repo is the **actual flight test** of the
 
 | | |
 |---|---|
-| **Video** | [`output/line_follower.mp4`](output/line_follower.mp4) (22 MB) |
-| **Duration** | ~40 seconds |
-| **Resolution** | 720p (downward camera feed) |
+| **Video** | [`output/line_follower.mp4`](output/line_follower.mp4) (22 MB, 60s, 1080p) |
+| **Preview** | ![Preview](output/line_follower_preview.gif) |
 | **Controller** | Original MATLAB/Simulink + Stateflow |
 
-> **Note**: GitHub doesn't play large videos inline. Click the link above or download the file to watch.
+> **Note**: GitHub doesn't play large MP4 videos inline. The GIF above loops automatically — click it or the link above to download the full video.
 
 ## Side-by-Side: Simulation vs Real Hardware
 

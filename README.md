@@ -2,9 +2,12 @@
 
 **Author**: Rhutvik
 
-[![Real Flight Demo](output/line_follower_preview.gif)](output/line_follower.mp4)
+| Real Hardware Flight | Python Simulation |
+|---------------------|-------------------|
+| [![Real Flight](output/line_follower_preview.gif)](output/line_follower.mp4) | [![Simulation](output/simulation_preview.gif)](output/simulation_s_curve.mp4) |
+| *Click for full video (22 MB, 60s)* | *Click for full video (generated with \`--record\`)* |
 
-*Click the GIF above to download the full 1080p video (22 MB, 60s)*
+Pure-Python simulation replica of the MATLAB/Simulink + Stateflow project for autonomous line following and landing on a Parrot Mambo minidrone. Runs entirely in software — no hardware required.
 
 Pure-Python simulation replica of the MATLAB/Simulink + Stateflow project for autonomous line following and landing on a Parrot Mambo minidrone. Runs entirely in software — no hardware required.
 

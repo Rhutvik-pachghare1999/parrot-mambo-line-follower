@@ -37,8 +37,8 @@ class ImageProcessingConfig:
     # HSV thresholds for colored line detection (red/orange tape)
     # OpenCV HSV: H in [0, 179], S in [0, 255], V in [0, 255]
     # Red wraps around 0/180, but our path renders as orange-ish due to anti-aliasing
-    hsv_lower: Tuple[int, int, int] = (0, 50, 50)
-    hsv_upper: Tuple[int, int, int] = (35, 255, 255)
+    hsv_lower: Tuple[int, int, int] = (0, 40, 40)
+    hsv_upper: Tuple[int, int, int] = (40, 255, 255)
     # Alternative red range (wraps around 180)
     hsv_lower2: Tuple[int, int, int] = (160, 50, 50)
     hsv_upper2: Tuple[int, int, int] = (180, 255, 255)
